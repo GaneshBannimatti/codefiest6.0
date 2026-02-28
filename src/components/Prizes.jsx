@@ -5,13 +5,11 @@ export default function Prizes() {
     <section
       id="prizes"
       className="
-        pt-16 sm:pt-20 md:pt-24
-        pb-10 sm:pb-14 md:pb-16
+        py-10 sm:py-12 md:py-14 lg:py-16
         text-white
         px-4 sm:px-6 md:px-10 lg:px-16
       "
     >
-
       {/* Heading */}
       <h2
         className="
@@ -21,19 +19,18 @@ export default function Prizes() {
           md:text-4xl
           lg:text-5xl
           font-bold
-          mb-10 sm:mb-14
+          mb-6 sm:mb-8 md:mb-10
         "
       >
         Prize Pool <span className="text-cyan-400">💰</span>
       </h2>
 
-      {/* Card Container */}
-      <div className="flex justify-center">
-
+      {/* Card */}
+      <div className="flex justify-center items-center">
         <div
           className="
             w-full
-            max-w-[240px]
+            max-w-[260px]
             sm:max-w-xs
             md:max-w-sm
             lg:max-w-md
@@ -43,16 +40,11 @@ export default function Prizes() {
         >
           <NeonCard
             title="🏆 Prize Worth ₹1,00,000/-"
-            description="
-              Total prize pool of ₹1,00,000 including cash rewards,
-              trophies, certificates and exciting goodies.
-            "
+            description="Total prize pool of ₹1,00,000 including cash rewards, trophies, certificates and exciting goodies."
             accent="cyan"
           />
         </div>
-
       </div>
-
     </section>
   );
 }

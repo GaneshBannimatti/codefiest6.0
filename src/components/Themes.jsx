@@ -16,8 +16,8 @@ export default function Themes() {
     <section
       id="themes"
       className="
-        pt-16 sm:pt-20 md:pt-24 lg:pt-28
-        pb-16 sm:pb-20 md:pb-24 lg:pb-28
+        pt-16 sm:pt-20 md:pt-24
+        pb-8 sm:pb-10 md:pb-12
         text-white
         px-4 sm:px-6 md:px-10 lg:px-16 xl:px-24
       "
@@ -32,7 +32,7 @@ export default function Themes() {
           lg:text-5xl
           xl:text-6xl
           font-bold
-          mb-10 sm:mb-14 lg:mb-16
+          mb-8 sm:mb-10 md:mb-12
         "
       >
         Hackathon <span className="text-cyan-400">Themes</span>
@@ -46,8 +46,7 @@ export default function Themes() {
           grid
           grid-cols-1
           sm:grid-cols-2
-          lg:grid-cols-2
-          gap-6 sm:gap-8 md:gap-10 lg:gap-12
+          gap-6 sm:gap-8 md:gap-10
         "
       >
         {themes.map((theme, index) => (
@@ -64,57 +63,27 @@ export default function Themes() {
               hover:scale-[1.02]
             "
           >
-            {/* Inner Card */}
             <div
               className="
                 h-full
                 rounded-2xl
                 bg-neutral-900/80
                 backdrop-blur-xl
-                p-5 sm:p-6 md:p-8 lg:p-10
+                p-5 sm:p-6 md:p-8
                 border border-white/10
                 transition-all duration-500
                 group-hover:shadow-[0_0_40px_rgba(34,211,238,0.3)]
               "
             >
-              {/* Icon */}
-              <div
-                className="
-                  text-3xl
-                  sm:text-4xl
-                  md:text-5xl
-                  lg:text-6xl
-                  mb-3 sm:mb-4 md:mb-5
-                "
-              >
+              <div className="text-3xl sm:text-4xl md:text-5xl mb-4">
                 {theme.icon}
               </div>
 
-              {/* Title */}
-              <h3
-                className="
-                  text-lg
-                  sm:text-xl
-                  md:text-2xl
-                  lg:text-3xl
-                  font-semibold
-                  mb-2 sm:mb-3
-                  text-white
-                "
-              >
+              <h3 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2">
                 {theme.title}
               </h3>
 
-              {/* Description */}
-              <p
-                className="
-                  text-gray-300
-                  text-sm
-                  sm:text-base
-                  md:text-lg
-                  leading-relaxed
-                "
-              >
+              <p className="text-gray-300 text-sm sm:text-base md:text-lg">
                 {theme.desc}
               </p>
             </div>

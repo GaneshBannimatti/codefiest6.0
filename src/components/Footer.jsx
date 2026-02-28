@@ -36,7 +36,7 @@ export default function Footer() {
 
   {/* Clickable Google Maps Link */}
   <a
-    href="https://maps.app.goo.gl/96u3yE5NpZVoZcmS7"
+    href="https://www.google.com/maps/place/Smt+Kamala+And+Sri+Venkappa+M.+Agadi+College+of+Engineering+%26+Technology/@15.1004188,75.4555657,17z/data=!3m1!4b1!4m6!3m5!1s0x3bb9109d674d38e3:0x683354f6190efee5!8m2!3d15.1004188!4d75.4555657!16s%2Fg%2F1hf00zqcy?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D"
     target="_blank"
     rel="noopener noreferrer"
     className="text-cyan-400 hover:underline text-xs"
@@ -145,6 +145,12 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex justify-between whitespace-nowrap">
+                <span>Mohammad Rihan </span>
+                <a href="tel:+918904326873" className="text-gray-500 hover:text-cyan-400">
+                  +91 8904326873
+                </a>
+              </li>
+              <li className="flex justify-between whitespace-nowrap">
                 <span>Kavya M Angadi</span>
                 <a href="tel:+919535948252" className="text-gray-500 hover:text-cyan-400">
                   +91 9535948252
@@ -156,6 +162,7 @@ export default function Footer() {
                  +91 8904841488
                 </a>
               </li>
+              
             </ul>
           </div>
 

@@ -3,6 +3,8 @@ import { gsap } from "gsap";
 import Countdown from "./Countdown";
 import RippleLoader from "./RippleLoader";
 
+import rulebook from "../assets/rulebook.pdf";   // ✅ import PDF
+
 export default function Hero() {
   const heroRef = useRef(null);
 
@@ -45,7 +47,15 @@ export default function Hero() {
       {/* Content */}
       <div
         ref={heroRef}
-        className="relative z-10 flex flex-col items-center text-center text-white px-4 sm:px-6 max-w-6xl"
+        className="
+          relative z-10
+          flex flex-col
+          items-center
+          text-center
+          text-white
+          px-4 sm:px-6
+          max-w-6xl
+        "
       >
         {/* Title */}
         <h1 className="hero-item font-extrabold tracking-wider leading-tight">
@@ -56,7 +66,7 @@ export default function Hero() {
               drop-shadow-[0_0_40px_rgba(34,211,238,0.6)]
             "
           >
-            CODEFIESTA 6.O
+            CODEFIESTA 6.0
           </span>
         </h1>
 
@@ -82,7 +92,7 @@ export default function Hero() {
         {/* Buttons */}
         <div className="hero-item mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4">
 
-          {/* Register Button */}
+          {/* Register */}
           <button
             onClick={() => window.open(formLink, "_blank")}
             className="
@@ -101,9 +111,9 @@ export default function Hero() {
             Register
           </button>
 
-          {/* Rulebook Button */}
+          {/* Rulebook */}
           <a
-            href="/assets/rulebook.pdf"
+            href={rulebook}
             target="_blank"
             rel="noopener noreferrer"
             className="
