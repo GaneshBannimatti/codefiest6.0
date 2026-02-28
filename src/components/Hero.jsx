@@ -56,7 +56,7 @@ export default function Hero() {
               drop-shadow-[0_0_40px_rgba(34,211,238,0.6)]
             "
           >
-            CODEFIESTA 6.0
+            CODEFIESTA 6.O
           </span>
         </h1>
 
@@ -103,7 +103,7 @@ export default function Hero() {
 
           {/* Rulebook Button */}
           <a
-            href="/assets/updatedRuleBook.pdf"
+            href="/assets/rulebook.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="
