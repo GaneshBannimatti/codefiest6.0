@@ -53,7 +53,7 @@ export default function Timeline() {
           mb-8 sm:mb-10
         "
       >
-        📅 Hackathon <span className="text-cyan-400">Timeline</span>
+         Hackathon <span className="text-cyan-400">Timeline</span>
       </h2>
 
       {/* Day Switch */}
