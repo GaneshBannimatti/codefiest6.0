@@ -100,25 +100,25 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               <li className="flex justify-between whitespace-nowrap">
-                <span>Mrs. Rajeshwari G</span>
+                <span>Prof. Rajeshwari G</span>
                 <a href="tel:+919591316573" className="text-gray-500 hover:text-cyan-400">
                   +91 9591316573
                 </a>
               </li>
               <li className="flex justify-between whitespace-nowrap">
-                <span>Mr. Nagaraj B</span>
+                <span>Prof. Nagaraj B</span>
                 <a href="tel:+919632769295" className="text-gray-500 hover:text-cyan-400">
                   +91 9632769295
                 </a>
               </li>
               <li className="flex justify-between whitespace-nowrap">
-                <span>Mr. Shrikanth M</span>
+                <span>Prof. Shrikanth M</span>
                 <a href="tel:+919035528726" className="text-gray-500 hover:text-cyan-400">
                   +91 90355 28726
                 </a>
               </li>
               <li className="flex justify-between whitespace-nowrap">
-                <span>Mr. Jagadish K</span>
+                <span>Prof. Jagadish K</span>
                 <a href="tel:+919916865653" className="text-gray-500 hover:text-cyan-400">
                   +91 99168 65653
                 </a>
