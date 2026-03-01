@@ -36,7 +36,7 @@ export default function About() {
         "
       >
 
-        {/* Card 1 */}
+        {/* Card 1 - College */}
         <div
           className="
             group
@@ -88,19 +88,18 @@ export default function About() {
                 md:text-lg
               "
             >
-              Smt. Kamala & Sri Venkappa M. Agadi College of Engineering &
-              Technology (SKSVMACET) is an engineering institute established in
-              2003, Lakshmeshwar, Karnataka.
+              Smt. Kamala and Sri Venkappa M. Agadi College of Engineering and Technologies is committed to imparting quality education leading to graduation in Engineering & Technology.
               <br /><br />
-              The college offers quality education with modern infrastructure,
-              industry collaboration, and research-focused learning.
+              Our aim is to become an institution of excellence through continual improvements in academic standards, measurable objectives, and compliance with statutory and regulatory requirements.
+              <br /><br />
+              Excellence at SKSVMACET reflects professional management, an effective teaching-learning process, and strong career development support for students.
             </p>
 
           </div>
         </div>
 
 
-        {/* Card 2 */}
+        {/* Card 2 - CSE Department */}
         <div
           className="
             group
@@ -152,11 +151,11 @@ export default function About() {
                 md:text-lg
               "
             >
-              The CSE department focuses on strong foundations in Computer
-              Science, professional ethics, and innovation.
+              The Department of Computer Science & Engineering is one of the most dynamic branches of the institution, committed to building strong foundations in Computer Science along with professional ethics and human values.
               <br /><br />
-              Students gain exposure to AI, ML, IoT, and Cybersecurity
-              curriculum and industry-driven learning.
+              The department implements NEP-2020 through the 2021 scheme curriculum, enabling students to specialize in emerging technologies such as Artificial Intelligence, Machine Learning, IoT, Big Data Analytics, Data Science, and Cyber Security.
+              <br /><br />
+              With highly experienced faculty (12+ years average experience), strong industry MOUs, practical-oriented learning, and the active student association FORTUNE, the department has achieved 100% final semester results for five consecutive years and around 80% placements in core IT companies.
             </p>
 
           </div>
