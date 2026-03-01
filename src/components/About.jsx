@@ -69,7 +69,7 @@ export default function About() {
             <p className="font-sans text-gray-300 leading-relaxed text-base flex-grow">
               The Department of Computer Science & Engineering focuses on building strong technical foundations along with professional ethics and human values.
               <br /><br />
-              Through NEP-2020 curriculum implementation, students gain exposure to emerging technologies such as AI, Machine Learning, IoT, Data Science, and Cyber Security.
+              curriculum implementation, students gain exposure to emerging technologies such as AI, Machine Learning, IoT, Data Science, and Cyber Security.
               <br /><br />
               With experienced faculty, industry collaborations, practical-oriented learning, and the FORTUNE student association, the department consistently achieves excellent academic results and strong placements in core IT companies.
             </p>
