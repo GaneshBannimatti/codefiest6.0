@@ -155,8 +155,8 @@ export default function About() {
               The CSE department focuses on strong foundations in Computer
               Science, professional ethics, and innovation.
               <br /><br />
-              Students gain exposure to AI, ML, IoT, and Cybersecurity through
-              NEP-2020 curriculum and industry-driven learning.
+              Students gain exposure to AI, ML, IoT, and Cybersecurity
+              curriculum and industry-driven learning.
             </p>
 
           </div>
