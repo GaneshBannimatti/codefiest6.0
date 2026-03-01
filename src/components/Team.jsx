@@ -53,7 +53,7 @@ export default function Team() {
     },
     {
       id: "7",
-      name: "Ms. Priyanka",
+      name: "Miss. Priyanka",
       role: "Vice President",
       image: priyanka,
     },
@@ -71,13 +71,13 @@ export default function Team() {
     },
     {
       id: "10",
-      name: "Ms. Rakshita Halagatti",
+      name: "Miss. Rakshita Halagatti",
       role: "Student Coordinator",
       image: rakshita,
     },
     {
       id: "11",
-      name: "Ms. Sneha Marabannavar",
+      name: "Miss. Sneha Marabannavar",
       role: "Student Coordinator",
       image: sneha,
     },
