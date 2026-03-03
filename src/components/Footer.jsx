@@ -28,7 +28,7 @@ export default function Footer() {
   <div className="h-40 rounded-md overflow-hidden border border-white/10">
     <iframe
       title="location"
-      src="https://www.google.com/maps?q=SVMA%20College%20Ilkal&output=embed"
+      src="https://www.google.com/maps/place/Smt+Kamala+And+Sri+Venkappa+M.+Agadi+College+of+Engineering+%26+Technology/@15.1004188,75.4555657,17z/data=!3m1!4b1!4m6!3m5!1s0x3bb9109d674d38e3:0x683354f6190efee5!8m2!3d15.1004188!4d75.4555657!16s%2Fg%2F1hf00zqcy?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D"
       className="w-full h-full border-0"
       loading="lazy"
     />
