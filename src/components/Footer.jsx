@@ -25,18 +25,24 @@ export default function Footer() {
 
           {/* 2️⃣ MAP */}
           <div className="space-y-2">
-            <a
-              href="https://maps.app.goo.gl/PkTCfuBSAiz4AQnh9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block"
-            >
-              <img
-                src="https://maps.googleapis.com/maps/api/staticmap?center=15.1004188,75.4555657&zoom=17&size=600x300&markers=color:red%7C15.1004188,75.4555657"
-                alt="College Location"
-                className="h-40 w-full rounded-md border border-white/10 object-cover hover:opacity-80 transition"
+            <div className="relative h-40 rounded-md overflow-hidden border border-white/10">
+
+              {/* Google Map Embed */}
+              <iframe
+                title="location"
+                src="https://www.google.com/maps?q=15.1004188,75.4555657&z=17&output=embed"
+                className="w-full h-full border-0"
+                loading="lazy"
               />
-            </a>
+
+              {/* Clickable Overlay */}
+              <a
+                href="https://maps.app.goo.gl/PkTCfuBSAiz4AQnh9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute inset-0"
+              ></a>
+            </div>
 
             <a
               href="https://maps.app.goo.gl/PkTCfuBSAiz4AQnh9"
@@ -47,7 +53,6 @@ export default function Footer() {
               View on Google Maps
             </a>
           </div>
-
           {/* 3️⃣ CONTACT */}
           <div className="space-y-3">
             <h4 className="text-white font-semibold">Contact</h4>
